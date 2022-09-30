@@ -1,0 +1,88 @@
+:root{
+    --color1:#0d6efd;
+    --color3:rgb(8, 81, 110);
+    --color2: rgb(5, 128, 91);
+    --box: .1rem .1rem 1rem grey;
+}
+*{
+    font-family: century Gothic;
+    padding: 0;
+    margin: 0;
+        box-sizing: border-box;
+
+}
+.navsection{
+    color: var(--color1);
+}
+.logo{
+    color: var(--color1);
+}
+.navsection a:hover{
+    color: #0d6efd;
+}
+
+.home .image h4{
+    color: var(--color3);
+    font-size:2rem;
+    font-weight: 600;
+    padding: 2rem 0;
+}
+.home .image p{
+    color: rgb(87, 85, 85);
+    font-size:1rem;
+    line-height: 2rem;
+    
+    
+}
+.home .image{
+    background-color:black;
+    height: 70vh;
+    padding: 6rem 7%;
+   
+}
+.ads {
+    display: grid;
+    gap:1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+.ads{
+    padding: 2rem 9%;
+}
+.ads .adsdet .icon img{
+    margin-left:30%;
+    height:20vh;
+    padding-bottom: 2rem;
+}
+.ads .adsdet{
+    width: 17rem;
+    padding: 2rem 2rem;
+    border-radius:.3rem;
+    box-shadow: var(--box);
+}
+.ads .adsdet p{
+    font-size:.9rem;
+
+}
+.ads .adsdetv{
+    width: 17rem;
+    padding: 1rem .2rem;
+    border-radius:.3rem;
+    box-shadow: var(--box);
+}
+
+.sigin{
+    display: none;
+    width: 18rem;
+    box-shadow:var(--box);
+    position: absolute;
+    background: white;
+    border-bottom-right-radius:.3rem;
+    border-bottom-left-radius:.3rem;
+    margin-left: 78%
+}
+
+.footer{
+    background: var(--color3);
+    padding: 2rem 30rem;
+    
+}
